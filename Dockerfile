@@ -23,6 +23,8 @@ RUN pip install --upgrade setuptools
 RUN mkdir -p /root/src
 # requirements.txtをコンテナのsrcディレクトリにコピー
 COPY requirements.txt /root/src
+# ホストOSのkaggle API キーをコンテナにコピー
+COPY ~/Development/DS_env/kaggle.json ~/.kaggle/kaggle.json
 
 # 作業ディレクトリをsrcに変更
 WORKDIR /root/src

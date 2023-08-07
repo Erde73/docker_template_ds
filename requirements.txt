@@ -26,3 +26,4 @@ jupyterlab-system-monitor
 ipywidgets
 autopep8
 black
+kaggle
