@@ -33,3 +33,6 @@ services:
 # https://tekkubu.com/docker-jupyter-lab/#index_id2
 # https://qiita.com/tay2501/items/1f82f16447bdff86247d#fn1
 # https://zuma-lab.com/posts/docker-python-settings
+
+# kaggle API document
+# https://github.com/Kaggle/kaggle-api
