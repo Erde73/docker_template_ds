@@ -27,3 +27,4 @@ ipywidgets
 autopep8
 black
 kaggle
+signate
