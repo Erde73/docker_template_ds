@@ -25,6 +25,8 @@ RUN mkdir -p /root/src
 COPY requirements.txt /root/src
 # ホストOSのkaggle API キーをコンテナにコピー
 COPY ~/Development/DS_env/kaggle.json ~/.kaggle/kaggle.json
+# ホストOSのsignate API キーをコンテナにコピー
+COPY ~/Development/DS_env/signate.json ~/.signate/signate.json
 
 # 作業ディレクトリをsrcに変更
 WORKDIR /root/src
