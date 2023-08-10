@@ -36,3 +36,6 @@ services:
 
 # kaggle API document
 # https://github.com/Kaggle/kaggle-api
+
+# signate API document
+# https://pypi.org/project/signate/

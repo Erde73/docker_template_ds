@@ -23,7 +23,6 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
 # srcディレクトリを作成
-RUN mkdir -p /root/src
 RUN mkdir -p /root/src/input
 # requirements.txtをコンテナのsrcディレクトリにコピー
 COPY requirements.txt /root/src
